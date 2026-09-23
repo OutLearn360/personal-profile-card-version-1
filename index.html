@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simple personal profile card for a front-end developer."
+    />
+    <title>Personal Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-container">
+      <article class="profile-card">
+        <div class="card-banner"></div>
+
+        <div class="profile-content">
+          <div
+            class="profile-avatar"
+            role="img"
+            aria-label="Alex Morgan profile avatar"
+          >
+            AM
+          </div>
+
+          <header class="profile-header">
+            <h1>Alex Morgan</h1>
+            <p class="job-title">Front-End Developer</p>
+            <p class="location">📍 New Delhi, India</p>
+          </header>
+
+          <p class="profile-bio">
+            I build clean, responsive, and user-friendly websites that turn
+            creative ideas into simple digital experiences.
+          </p>
+
+          <section class="profile-stats" aria-label="Profile statistics">
+            <div class="stat-item">
+              <strong>24</strong>
+              <span>Projects</span>
+            </div>
+
+            <div class="stat-item">
+              <strong>3+</strong>
+              <span>Years</span>
+            </div>
+
+            <div class="stat-item">
+              <strong>18</strong>
+              <span>Clients</span>
+            </div>
+          </section>
+
+          <section class="profile-skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills</h2>
+
+            <div class="skill-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive Design</span>
+            </div>
+          </section>
+
+          <nav class="profile-links" aria-label="Profile links">
+            <a class="primary-link" href="mailto:alex@example.com">
+              Contact Me
+            </a>
+
+            <a
+              class="secondary-link"
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub Profile
+            </a>
+          </nav>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
